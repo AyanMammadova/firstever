@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box0;
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    background-color: #9b95bc;
+    
+
+}
+
+header{
+    background-color: #312953;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+nav{
+   
+    float: left;
+    width: 15%;
+   
+}
+
+ul{
+    padding: 40px;
+    list-style-type: "✭";
+    color: white;
+       
+}
+a{
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+main{
+    background-color: red;
+    float: left;
+    width: 85%;  
+    background: url(blurred.png) no-repeat fixed center;
+    background-size: cover;
+}
+
+footer{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    height: 30px;
+    background-color: rgb(92, 92, 118);
+    clear: both;
+}
+
+
+
+h6{
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+}
+ 
+div{
+    display: inline;
+    margin: 20px;
+    width: 100%;
+}
+
+h2{
+    display: inline;
+    width: 50px;
+    
+}
+
+h3{
+    display: inline;
+}
+
+pre{
+    font-family: 'Times New Roman', Times, serif;
+    display: inline;
+}
+
+button{
+    float: right;
+    border: white;
+    display: inline;
+    background-color: rgb(148, 144, 144);
+    padding-top: 0px;
+    height: 40px;
+    width: 90px;
+    
+}
+
+#div1{
+    float: right;
+}
+
+#ab{
+    display: inline;
+    
+    color: white;
+    font-size: 15px;
+}
+button:hover{
+    background-color: rgb(12, 12, 12);
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+

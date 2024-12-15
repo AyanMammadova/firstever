@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box0;
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    background-color: #9b95bc;
+    
+
+}
+
+header{
+    background-color: #312953;
+    color: white;
+    text-align: center;
+    margin: 0;
+}
+
+nav{
+   
+    float: left;
+    width: 15%;
+   
+}
+
+ul{
+    padding: 40px;
+    list-style-type: "✭";
+    color: white;
+       
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+main{
+    background-color: red;
+    float: left;
+    width: 85%;
+    height: 100vh;
+    background: url(image\ .png) no-repeat fixed center;
+    background-size: cover;
+}
+
+
+footer{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    height: 30px;
+    background-color: rgb(92, 92, 118);
+    clear: both;
+}
+
+h6{
+    font-family: Papyrus;
+    
+    font-size: 30px;
+}
+
+span{
+    font-size: 100px;
+}
+
+h5{   
+    font-size: 70px;
+    font-family: Papyrus;
+    color: #a79fb9;
+    /* font-family: Lucida Handwriting; */   
+}
+
+#tab{
+    background-color: rgba(148, 163, 198,0.5);
+    border:1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    height: 50px;
+    width: 170px;
+    display:inline-block;
+        
+}
+
+#text{
+    text-align: center;
+    margin: 200px;
+    
+}
+
+#tab:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+@media only screen and (max-width:768px ){
+    body{
+        width: 100%;
+    }
+    
+}

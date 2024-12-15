@@ -1,0 +1,105 @@
+
+*{
+    box-sizing: border-box0;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: #9b95bc;
+}
+
+header{
+    background-color: #312953;
+    color: white;
+    text-align: center;
+}
+
+nav{
+    height: 100vh;
+     float: left;
+     width: 15%;
+}
+ 
+ ul{
+     padding: 40px;
+     list-style-type: "✭";
+     color: white;
+        
+}
+a{
+     color: white;
+     font-size: 20px;
+     font-family: monospace;
+}
+
+main{
+    background:url(blurred.png) no-repeat fixed center;
+    background-size: cover;
+    height: 100vh;
+    float: left;
+    width: 85%;
+
+}
+
+footer{
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    height: 30px;
+    background-color: rgb(92, 92, 118);
+    clear: both;
+}
+
+#hihi{
+    margin: 200px;
+    margin-left:200px;
+    margin-right:200px;
+}
+
+#head,#info{
+    
+    height: 50px;
+
+}
+
+#head1,#head2,#head3{
+    display: inline;
+    float: left;
+    height: 50px;
+    width: 200px;
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(203, 201, 214,0.7);
+}
+
+iframe{
+    height: 100px;
+    width: 200px;
+}
+
+#info1,#info2,#info3{
+    display: inline;
+    float: left;
+    height: 100px;
+    width: 200px;
+    margin: 2px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(203, 201, 214,0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
